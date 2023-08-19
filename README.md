@@ -64,7 +64,7 @@ Follow these steps to set up and run the BookHaven project locally:
       DB_PASSWORD=
 
 5. **Import SQL Data**: In phpMyAdmin, follow these steps to import the SQL data:
-   * Select the bookhaven_db database on the left panel.
+   &#9679; Select the bookhaven_db database on the left panel.
    * Navigate to the "Import" tab.
    * Click the "Choose File" button and browse to the SQL data file located in the project root folder: Sql Data/data.sql.
    * Click the "Go" button to import the data.
