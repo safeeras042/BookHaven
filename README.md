@@ -60,7 +60,7 @@ Follow these steps to set up and run the BookHaven project locally:
 
 1. **Clone the Repository**: Clone this repository to your local development environment using the following command:  
    ```sh
-   git clone https://github.com/your-username/BookHaven.git
+   git clone https://github.com/safeeras042/BookHaven.git
 
 2. **Install Dependencies**: Navigate to the project directory and install the required PHP dependencies using Composer:
    ```sh
