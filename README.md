@@ -72,7 +72,7 @@ Follow these steps to set up and run the BookHaven project locally:
 
 4.  **Create Database**: Create the bookhaven_db database using your preferred MySQL client.
 
-5. **Database Configuration**: Create a new MySQL database for the project. In the .env file, update the following lines with your database credentials:
+5. **Database Configuration**: In the .env file, update the following lines with your database credentials:
    ```sh
       DB_CONNECTION=mysql
       DB_HOST=127.0.0.1
