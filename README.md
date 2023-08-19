@@ -64,7 +64,7 @@ Follow these steps to set up and run the BookHaven project locally:
       DB_PASSWORD=
 
 5. **Import SQL Data**: In phpMyAdmin, follow these steps to import the SQL data:
-   - Select the bookhaven_db database on the left panel.
+   * Select the bookhaven_db database on the left panel.
    * Navigate to the "Import" tab.
    * Click the "Choose File" button and browse to the SQL data file located in the project root folder: Sql Data/data.sql.
    * Click the "Go" button to import the data.
@@ -84,6 +84,41 @@ Follow these steps to set up and run the BookHaven project locally:
 9. **Access the Application**: Open a web browser and visit http://localhost:8000 to access the BookHaven application.
 
 
+## Troubleshooting Common Issues
+
+### Issue: Failed to Listen on 127.0.0.1:8000
+
+**Error Message**: Failed to listen on 127.0.0.1:8000 (reason: ?).
+
+**Solution**:
+1. Navigate to your PHP installation folder.
+2. Find the `php.ini-development` file and rename it to `php.ini`.
+
+---
+
+### Issue: Call to Undefined Function Illuminate\Encryption\openssl_cipher_iv_length()
+
+**Error Message**: Call to undefined function Illuminate\Encryption\openssl_cipher_iv_length().
+
+**Solution**:
+1. Open your `php.ini` file.
+2. Search for the `;extension=openssl` line.
+3. Remove the semicolon `;` at the beginning of the line to uncomment it.
+4. Save the `php.ini` file.
+5. Restart your server.
+
+---
+
+### Issue: Illuminate\Database\QueryException Could Not Find Driver
+
+**Error Message**: Illuminate\Database\QueryException could not find driver.
+
+**Solution**:
+1. Open your `php.ini` file.
+2. Search for the `;extension=pdo_mysql` line.
+3. Remove the semicolon `;` at the beginning of the line to uncomment it.
+4. Save the `php.ini` file.
+5. Restart your server.
 
 
 
