@@ -27,6 +27,17 @@ Follow these steps to set up and run the BookHaven project locally:
 
 
 
+## Video Showcase
+
+### Explore BookHaven in Action
+
+[![Watch the Video](link-to-thumbnail-image)](link-to-your-video)
+
+Check out this video to get a visual tour of the BookHaven application. The video showcases the various features including browsing through e-books, using the search functionality, filtering by categories, and more. 
+
+Feel free to follow along with the video to see how the application works and the experience it provides to users.
+
+> **Note**: The video content is for demonstration purposes only and may not reflect the latest updates to the application.
 
 
 
