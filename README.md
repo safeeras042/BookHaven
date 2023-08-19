@@ -88,8 +88,6 @@ Follow these steps to set up and run the BookHaven project locally:
 
 ### Issue: Failed to Listen on 127.0.0.1:8000
 
-**Error Message**: Failed to listen on 127.0.0.1:8000 (reason: ?).
-
 **Solution**:
 1. Navigate to your PHP installation folder.
 2. Find the `php.ini-development` file and rename it to `php.ini`.
@@ -97,8 +95,6 @@ Follow these steps to set up and run the BookHaven project locally:
 ---
 
 ### Issue: Call to Undefined Function Illuminate\Encryption\openssl_cipher_iv_length()
-
-**Error Message**: Call to undefined function Illuminate\Encryption\openssl_cipher_iv_length().
 
 **Solution**:
 1. Open your `php.ini` file.
@@ -110,8 +106,6 @@ Follow these steps to set up and run the BookHaven project locally:
 ---
 
 ### Issue: Illuminate\Database\QueryException Could Not Find Driver
-
-**Error Message**: Illuminate\Database\QueryException could not find driver.
 
 **Solution**:
 1. Open your `php.ini` file.
