@@ -1,7 +1,3 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
-
-
 # BookHaven Laravel Project
 
 BookHaven is a Laravel-based web application that provides a platform for users to purchase, download, and read e-books. The project features a comprehensive set of functionalities including a shopping cart, search functionality, book categorization, a "My Books" section for viewing purchased books, and user authentication with login and registration capabilities.
