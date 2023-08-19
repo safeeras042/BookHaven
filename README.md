@@ -30,18 +30,17 @@ Follow these steps to set up and run the BookHaven project locally:
 ## Video Showcase
 
 ### Explore BookHaven in Action
-
-
 Check out this video to get a visual tour of the BookHaven application. The video showcases the various features including browsing through e-books, using the search functionality, filtering by categories, and more. 
 
 Feel free to follow along with the video to see how the application works and the experience it provides to users.
 
 > **Note**: The video content is for demonstration purposes only and may not reflect the latest updates to the application.
 
-### Making Purchases and Reading E-Books
+
 
 https://github.com/safeeras042/BookHaven/assets/134996928/92fafc2c-a280-438a-be7b-418a6f7de7eb
 
+### Making Purchases and Reading E-Books
 This video demonstrates the process of adding and removing books to/from the cart, filling out purchase details, making a purchase, and accessing the purchased e-books through the "My Books" section. Follow along to see how users can seamlessly interact with BookHaven's features.
 
 > **Note**: The video content is for demonstration purposes only and may not reflect the latest updates to the application.
