@@ -48,9 +48,27 @@ Follow these steps to set up and run the BookHaven project locally:
    git clone https://github.com/your-username/BookHaven.git
 
 2. **Install Dependencies**: Navigate to the project directory and install the required PHP dependencies using Composer:
-  ```sh
+   ```sh
    cd BookHaven
    composer install
+
+3.  **Create Database**: Create the bookhaven_db database using your preferred MySQL client.
+
+4. **Database Configuration**: Create a new MySQL database for the project. In the .env file, update the following lines with your database credentials:
+   ```sh
+      DB_CONNECTION=mysql
+      DB_HOST=127.0.0.1
+      DB_PORT=3306
+      DB_DATABASE=bookhaven_db
+      DB_USERNAME=root
+      DB_PASSWORD=
+
+5. **Import SQL Data**: In phpMyAdmin, follow these steps to import the SQL data:
+   * Select the bookhaven_db database on the left panel.
+   * Navigate to the "Import" tab.
+   * Click the "Choose File" button and browse to the SQL data file located in the project root folder: Sql Data/data.sql.
+   * Click the "Go" button to import the data.
+
 
 
 
