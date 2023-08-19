@@ -1,5 +1,4 @@
-
-![png-transparent-laravel-wordmark-hd-logo__2_-PhotoRoom png-PhotoRoom-removebg-preview](https://github.com/safeeras042/BookHaven/assets/134996928/e05ffd2c-95f5-4b97-92d1-2a5bd9b642f1)
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 
 
