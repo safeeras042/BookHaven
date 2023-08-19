@@ -67,9 +67,16 @@ Follow these steps to set up and run the BookHaven project locally:
    cd BookHaven
    composer install
 
-3.  **Create Database**: Create the bookhaven_db database using your preferred MySQL client.
+3. **Create .env File**: Copy it to create your own .env file:
+   ```sh
+   cp .env.example .env
+* Then, generate an application key using the following command:
+   ```sh
+   php artisan key:generate
 
-4. **Database Configuration**: Create a new MySQL database for the project. In the .env file, update the following lines with your database credentials:
+4.  **Create Database**: Create the bookhaven_db database using your preferred MySQL client.
+
+5. **Database Configuration**: Create a new MySQL database for the project. In the .env file, update the following lines with your database credentials:
    ```sh
       DB_CONNECTION=mysql
       DB_HOST=127.0.0.1
@@ -78,25 +85,25 @@ Follow these steps to set up and run the BookHaven project locally:
       DB_USERNAME=root
       DB_PASSWORD=
 
-5. **Import SQL Data**: In phpMyAdmin, follow these steps to import the SQL data:
+6. **Import SQL Data**: In phpMyAdmin, follow these steps to import the SQL data:
    * Select the bookhaven_db database on the left panel.
    * Navigate to the "Import" tab.
    * Click the "Choose File" button and browse to the SQL data file located in the project root folder: Sql Data/data.sql.
    * Click the "Go" button to import the data.
 
-6. **Install JavaScript Dependencies**: Install the JavaScript dependencies using npm:
+7. **Install JavaScript Dependencies**: Install the JavaScript dependencies using npm:
    ```sh
    npm install
 
-7. **Build Frontend Assets**: Build the frontend assets by running the following command:
+8. **Build Frontend Assets**: Build the frontend assets by running the following command:
    ```sh
    npm run dev
 
-8. **Start the Development Server**: Launch the Laravel development server:
+9. **Start the Development Server**: Launch the Laravel development server:
    ```sh
    php artisan serve
 
-9. **Access the Application**: Open a web browser and visit http://localhost:8000 to access the BookHaven application.
+10. **Access the Application**: Open a web browser and visit http://localhost:8000 to access the BookHaven application.
 
 
 ## Troubleshooting Common Issues
