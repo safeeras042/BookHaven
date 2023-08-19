@@ -1,0 +1,271 @@
+.custom-hr {
+    width: 70%; /* Set the desired width of the hr tag */
+    margin: 20px auto; 
+    color: rgb(43, 38, 38);
+    border-top: 3px solid;
+}
+/* card */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 70px;
+    
+    
+}
+
+.card {
+    
+    
+    flex: 0 0 calc(19% - 20px);
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    position: relative;
+    transition: all 0.35s;
+    overflow: hidden;
+    margin-bottom: 35px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.844) !important;
+}
+
+.card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Change box-shadow on hover */
+    transform: scale(1.05); /* Add scale animation on hover */
+}
+
+
+.card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.card h4 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.w {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    /* margin-left: 120px; */
+    
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    transition: all 0.35s;
+    
+    background: #00308F;
+    border-radius: 3px;
+    position: relative;
+}
+
+.w span {
+    position: relative;
+    z-index: 2;
+}
+
+.w:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #ff003b;
+    transition: all 0.35s;
+    border-radius: 3px;
+}
+.card-container {
+    position: relative; /* Add position:relative to the card container to define the containing block for absolute positioning */
+}
+
+.card:hover .w {
+    color: #fff;
+}
+
+.card:hover .w:after {
+    width: 100%;
+}
+
+/*  */
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+/* filer style ----------------------------------------------------------------------------------------------------------------------*/
+
+.custom-filter {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.filter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-form .form-control {
+    width: 300px; /* Adjust the width as needed */
+    margin-right: 10px; /* Adjust the spacing as needed */
+}
+/* end -------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* heading -------------------------------------------------------------------------------------------------------------------------------------*/
+.custom-body, .custom-heading {
+    margin: 0;
+    padding: 0;
+    margin-top: -10px;
+}
+
+/* Style for the heading */
+.custom-heading {
+    text-align: center;
+    
+    color: white;
+    padding: 20px 0;
+   
+    
+    
+    /* Add text-stroke */
+
+    /* Animation */
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* end ------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* line -------------------------------------------------------------------------------------------------------------------------------------*/
+.line {
+    width: 0;
+    height: 3px;
+    background-color: rgba(255, 255, 255, 0.571);
+    margin: 1px auto;
+    
+    /* Animation */
+    animation: expandWidth 6s ease-in-out infinite;
+}
+
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    20%, 80% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    40%, 60% {
+        opacity: 0.6;
+        transform: translateY(10px);
+    }
+}
+
+@keyframes expandWidth {
+    0%, 100% {
+        width: 0;
+    }
+    25%, 75% {
+        width: 40%;
+    }}
+
+/* heaading end */
+  
+
+/* transition---------------------------------------------------------------------------------------------------------------------------- */
+
+.content {
+    position: relative;
+}
+
+.page-content {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+/* end---------------------------------------------------------------------------------------------------------------------------------- */
+
+
+  
+/* login start*/
+
+login-page {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Define styles for the custom login container */
+  login-page .login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto; /* Center the container */
+  }
+  
+  /* Center the content within the container */
+  login-page .login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Define styles for the custom input */
+  login-page .custom-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Define styles for the custom button */
+  login-page .custom-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  login-page .custom-button:hover {
+    background-color: #0056b3;
+  }

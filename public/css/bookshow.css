@@ -1,0 +1,175 @@
+.p-custom{
+    font-size:16px;
+    /* font-weight: bold; */
+    /* letter-spacing: 1.5px; */
+    line-height: 1.5;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+
+.centered-alert {
+    text-align: center;
+    max-width: 50%; 
+    margin: 0 auto; 
+}
+/* end */
+
+
+/* margin table */
+.table-cell {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.remove-button {
+    margin: 5px;
+}
+/* end */
+
+
+.custom-select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 700px;
+    margin-top: 7px;
+}
+
+.custom-select:hover {
+    background-color: #f5f5f5;
+}
+
+.custom-select option {
+    font-size: 16px;
+}
+
+
+.custom-input {
+    width: 700px; /* You can adjust the width to your preference */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  .custom-input2 {
+    width: 700px; /* You can adjust the width to your preference */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+
+  .center-navbar {
+    display: flex;
+    justify-content: center;
+}
+
+
+.custom-search-box {
+    width: 500px !important; /* Adjust the width as needed */
+    height: 40px !important; 
+    background-color: #ffffff45 !important;
+    border: 1px solid #ffffffa4 !important;
+
+}
+.custom-search-box::placeholder {
+    color: #ffffff !important; /* Set the desired placeholder color */
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-nav .nav-link {
+    margin: 0 1px; /* Adjust this value to control the spacing between buttons */
+}
+
+.navbar-nav .btn-outline-success {
+    border-color: #ffffff; /* Change border color */
+    color: #ffffff; /* Change text color */
+}
+
+.navbar-nav .btn-outline-success:hover {
+    background-color: #ffffff8a; /* Change background color on hover */
+    border-color: #ffffff9e; /* Change border color on hover */
+    color: #ffffff; /* Change text color on hover */
+}
+
+
+/* start----------------------------------------------------------------------------------------------------------------------- */
+
+.book-container {
+    background-color: #f9f7f4;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1000px; /* Adjust the max-width as needed */
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+
+    
+  }
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .book-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .book-author {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .book-publication {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #666;
+  }
+  
+  .book-content {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .book hr {
+    margin-top: 30px;
+    border: 0;
+    border-top: 1px solid #ddd;
+  }
+
+
+  .col-md-8 {
+    /* height: 100vh;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  
+  
+  
+  
+  
