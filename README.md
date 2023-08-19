@@ -64,12 +64,24 @@ Follow these steps to set up and run the BookHaven project locally:
       DB_PASSWORD=
 
 5. **Import SQL Data**: In phpMyAdmin, follow these steps to import the SQL data:
-   &#9679; Select the bookhaven_db database on the left panel.
+   * Select the bookhaven_db database on the left panel.
    * Navigate to the "Import" tab.
    * Click the "Choose File" button and browse to the SQL data file located in the project root folder: Sql Data/data.sql.
    * Click the "Go" button to import the data.
 
+6. **Install JavaScript Dependencies**: Install the JavaScript dependencies using npm:
+   ```sh
+   npm install
 
+7. **Build Frontend Assets**: Build the frontend assets by running the following command:
+   ```sh
+   npm run dev
+
+8. **Start the Development Server**: Launch the Laravel development server:
+   ```sh
+   php artisan serve
+
+9. **Access the Application**: Open a web browser and visit http://localhost:8000 to access the BookHaven application.
 
 
 
