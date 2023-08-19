@@ -47,6 +47,14 @@ Follow these steps to set up and run the BookHaven project locally:
    ```sh
    git clone https://github.com/your-username/BookHaven.git
 
+2.Install Dependencies: Navigate to the project directory and install the required PHP dependencies using Composer:
+ ```sh
+cd BookHaven
+composer install
+
+
+
+
 
 
 
