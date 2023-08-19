@@ -22,8 +22,8 @@ Feel free to follow along with the video to see how the application works and th
 
 
 
-
-[https://github.com/safeeras042/BookHaven/assets/134996928/92fafc2c-a280-438a-be7b-418a6f7de7eb] (#video-showcase)
+(#video-showcase)
+https://github.com/safeeras042/BookHaven/assets/134996928/92fafc2c-a280-438a-be7b-418a6f7de7eb 
 
 ### Making Purchases and Reading E-Books
 This video demonstrates the process of adding and removing books to/from the cart, filling out purchase details, making a purchase, and accessing the purchased e-books through the "My Books" section. Follow along to see how users can seamlessly interact with BookHaven's features.
