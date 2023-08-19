@@ -22,7 +22,7 @@ Feel free to follow along with the video to see how the application works and th
 
 
 
-(#video-showcase)
+
 https://github.com/safeeras042/BookHaven/assets/134996928/92fafc2c-a280-438a-be7b-418a6f7de7eb 
 
 ### Making Purchases and Reading E-Books
