@@ -1,5 +1,5 @@
 
-![png-transparent-laravel-wordmark-hd-logo__2_-removebg-preview](https://github.com/safeeras042/BookHaven/assets/134996928/bba73a09-c5c1-4fa0-9517-dd0897d77aed)
+![png-transparent-laravel-wordmark-hd-logo (2)-PhotoRoom png-PhotoRoom](https://github.com/safeeras042/BookHaven/assets/134996928/8cc4d624-d3d4-4e51-9e0d-c686eb84382e)
 
 
 
