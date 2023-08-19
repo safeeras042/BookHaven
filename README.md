@@ -9,6 +9,7 @@ BookHaven is a Laravel-based web application that provides a platform for users 
 2. [Features](#features)
 3. [Getting Started](#getting-started)
 4. [Troubleshooting Common Issues](#troubleshooting-common-issues)
+5. [Screenshots](#screenshots)
 
 
 
@@ -126,14 +127,20 @@ Follow these steps to set up and run the BookHaven project locally:
 
 
 
+## Screenshots
+
+![Home](https://github.com/safeeras042/BookHaven/assets/134996928/f3cc8524-d7fc-42f1-9150-00e5ac8cce19)
 
 
+![Book](https://github.com/safeeras042/BookHaven/assets/134996928/7caa3de3-d902-4eee-87f2-3c735310085f)
 
+![Cart](https://github.com/safeeras042/BookHaven/assets/134996928/1b8fd648-8b01-4bf2-b2f9-a89df661bcd7)
 
+![Purchase](https://github.com/safeeras042/BookHaven/assets/134996928/4b67a017-da50-4dee-8db4-700f640abb00)
 
+![My-Books](https://github.com/safeeras042/BookHaven/assets/134996928/8fbd8c0a-f810-4272-9c79-6502a9f95b5d)
 
-
-
+![book-content](https://github.com/safeeras042/BookHaven/assets/134996928/3c7419a1-1582-4eda-9c77-833c64d45801)
 
 
 
