@@ -148,6 +148,3 @@ Follow these steps to set up and run the BookHaven project locally:
 ![My-Books](https://github.com/safeeras042/BookHaven/assets/134996928/8fbd8c0a-f810-4272-9c79-6502a9f95b5d)
 
 ![book-content](https://github.com/safeeras042/BookHaven/assets/134996928/3c7419a1-1582-4eda-9c77-833c64d45801)
-
-
-<img src="https://t.bkit.co/w_64e22c7470d85.gif" />
